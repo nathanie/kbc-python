@@ -39,7 +39,7 @@ filelist = filelist  # *100
 start = time.time()
 logger.debug('creating clients serially')
 clients = [client(f) for f in filelist]
-print({c.client_id: (c.get_balance_without_comm_fee(), c.get_balance_after_comm_fee()) for c in clients})
+# print({c.client_id: (c.get_balance_without_comm_fee(), c.get_balance_after_comm_fee()) for c in clients})
 print('processing time running serially is: {0:.2f}'.format(time.time() - start))
 logger.debug('done serial processing of clients')
 
