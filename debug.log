@@ -1,0 +1,61 @@
+2019-10-04 07:35:13,872 - __main__ - DEBUG - start comparison between serial and parallel processing of clients
+2019-10-04 07:35:13,873 - __main__ - DEBUG - creating clients serially
+2019-10-04 07:35:54,264 - __main__ - DEBUG - done serial processing of clients
+2019-10-04 07:35:54,301 - __main__ - DEBUG - creating clients in parallel
+2019-10-04 07:36:05,686 - __main__ - DEBUG - done parallel processing of clients
+2019-10-04 07:37:26,007 - __main__ - DEBUG - start comparison between serial and parallel processing of clients
+2019-10-04 07:37:26,008 - __main__ - DEBUG - creating clients serially
+2019-10-04 07:37:37,717 - __main__ - DEBUG - start comparison between serial and parallel processing of clients
+2019-10-04 07:37:37,717 - __main__ - DEBUG - creating clients serially
+2019-10-04 07:37:38,067 - __main__ - DEBUG - done serial processing of clients
+2019-10-04 07:37:38,068 - __main__ - DEBUG - creating clients in parallel
+2019-10-04 07:37:38,645 - __main__ - DEBUG - done parallel processing of clients
+2019-10-04 07:37:43,979 - __main__ - DEBUG - start comparison between serial and parallel processing of clients
+2019-10-04 07:37:43,980 - __main__ - DEBUG - creating clients serially
+2019-10-04 07:37:44,424 - __main__ - DEBUG - done serial processing of clients
+2019-10-04 07:37:44,425 - __main__ - DEBUG - creating clients in parallel
+2019-10-04 07:39:31,613 - __main__ - DEBUG - start comparison between serial and parallel processing of clients
+2019-10-04 07:39:31,614 - __main__ - DEBUG - creating clients serially
+2019-10-04 07:39:32,050 - __main__ - DEBUG - done serial processing of clients
+2019-10-04 07:39:32,050 - __main__ - DEBUG - creating clients in parallel
+2019-10-04 07:39:32,679 - __main__ - DEBUG - done parallel processing of clients
+2019-10-04 07:41:10,616 - __main__ - DEBUG - done!
+2019-10-04 07:43:54,908 - __main__ - DEBUG - start comparison between serial and parallel processing of clients
+2019-10-04 07:43:54,908 - __main__ - DEBUG - creating clients serially
+2019-10-04 07:43:55,257 - __main__ - DEBUG - done serial processing of clients
+2019-10-04 07:43:55,258 - __main__ - DEBUG - creating clients in parallel
+2019-10-04 07:43:55,698 - __main__ - DEBUG - done parallel processing of clients
+2019-10-04 07:43:55,705 - __main__ - DEBUG - done!
+2019-10-04 07:45:14,627 - __main__ - DEBUG - start comparison between serial and parallel processing of clients
+2019-10-04 07:45:14,627 - __main__ - DEBUG - creating clients serially
+2019-10-04 07:45:15,061 - __main__ - DEBUG - done serial processing of clients
+2019-10-04 07:45:15,061 - __main__ - DEBUG - creating clients in parallel
+2019-10-04 07:58:03,225 - __main__ - DEBUG - start comparison between serial and parallel processing of clients
+2019-10-04 07:58:03,225 - __main__ - DEBUG - creating clients serially
+2019-10-04 07:58:03,574 - __main__ - DEBUG - done serial processing of clients
+2019-10-04 07:58:03,575 - __main__ - DEBUG - creating clients in parallel
+2019-10-04 07:58:04,024 - __main__ - DEBUG - done parallel processing of clients
+2019-10-04 07:58:04,031 - __main__ - DEBUG - done!
+2019-10-04 08:10:23,172 - __main__ - DEBUG - start comparison between serial and parallel processing of clients
+2019-10-04 08:10:23,173 - __main__ - DEBUG - creating clients serially
+2019-10-04 08:10:23,552 - __main__ - DEBUG - done serial processing of clients
+2019-10-04 08:10:23,553 - __main__ - DEBUG - creating clients in parallel
+2019-10-04 08:10:24,010 - __main__ - DEBUG - done parallel processing of clients
+2019-10-04 08:10:24,017 - __main__ - DEBUG - done!
+2019-10-04 08:12:05,631 - __main__ - DEBUG - start comparison between serial and parallel processing of clients
+2019-10-04 08:12:05,632 - __main__ - DEBUG - creating clients serially
+2019-10-04 08:12:06,075 - __main__ - DEBUG - done serial processing of clients
+2019-10-04 08:12:06,075 - __main__ - DEBUG - creating clients in parallel
+2019-10-04 08:12:06,724 - __main__ - DEBUG - done parallel processing of clients
+2019-10-04 08:12:06,731 - __main__ - DEBUG - done!
+2019-10-04 08:12:26,351 - __main__ - DEBUG - start comparison between serial and parallel processing of clients
+2019-10-04 08:12:26,352 - __main__ - DEBUG - creating clients serially
+2019-10-04 08:12:26,806 - __main__ - DEBUG - done serial processing of clients
+2019-10-04 08:12:26,806 - __main__ - DEBUG - creating clients in parallel
+2019-10-04 08:12:27,458 - __main__ - DEBUG - done parallel processing of clients
+2019-10-04 08:12:46,470 - __main__ - DEBUG - start comparison between serial and parallel processing of clients
+2019-10-04 08:12:46,470 - __main__ - DEBUG - creating clients serially
+2019-10-04 08:12:46,825 - __main__ - DEBUG - done serial processing of clients
+2019-10-04 08:12:46,826 - __main__ - DEBUG - creating clients in parallel
+2019-10-04 08:12:47,284 - __main__ - DEBUG - done parallel processing of clients
+2019-10-04 08:12:47,291 - __main__ - DEBUG - done!

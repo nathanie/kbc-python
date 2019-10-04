@@ -2,6 +2,7 @@ import argparse
 import os
 import logging
 import time
+import pickle
 from joblib import Parallel,delayed
 
 comm_fee = 1.25
@@ -24,7 +25,6 @@ class person(object):
 class client(person):
     """
     this class implements a data structure for a client details
-
     a client details includes all the person details (id, age and gender) and also client id and balance
     """
     def __init__(self,path):
@@ -46,6 +46,9 @@ class client(person):
 
     def get_balance_after_comm_fee(self):
         return self.__balance - self.__commission
+
+    def get_comm_fee(self):
+        return self.__commission
 
     def calc_transaction_data(self,filename):
         f = open('practice1/'+filename,'rt')
@@ -81,7 +84,7 @@ if __name__=='__main__':
     # this is just a way to simulate a large number of clients
     # remember that parallel processing has some overheads
     # so using it for small size data may be even slower than serial processing
-    filelist = filelist*100
+    filelist = filelist#*100
 
     # create clients object-list in a sequential way
     start = time.time()
@@ -95,12 +98,14 @@ if __name__=='__main__':
     del clients
     start = time.time()
     logger.debug('creating clients in parallel')
-    clients = Parallel(n_jobs=12)(delayed(client)(f) for f in filelist)
+    clients = Parallel(n_jobs=1)(delayed(client)(f) for f in filelist)
     print({c.client_id: (c.get_balance_without_comm_fee(), c.get_balance_after_comm_fee()) for c in clients})
     print('processing time running parallel is: {0:.2f} seconds'.format(time.time()-start))
     logger.debug('done parallel processing of clients')
+    f = open('client_list.pickle', 'wb')
+    pickle.dump(clients, f)
+    f.close()
 
     logger.debug('done!')
-    # c1 = client(filelist[0])
-    # c1.print_details()
+
 
