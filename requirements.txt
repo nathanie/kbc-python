@@ -16,8 +16,6 @@ kiwisolver==1.1.0
 lazy-object-proxy==1.4.2
 matplotlib==3.0.3
 mccabe==0.6.1
-mkl-random==1.1.0
-mkl-service==2.3.0
 numpy==1.16.5
 parso==0.5.1
 pickleshare==0.7.5
