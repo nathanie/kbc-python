@@ -48,7 +48,7 @@ class client(person):
         return self.__balance - self.__commission
 
     def calc_transaction_data(self,filename):
-        f = open('practice1\\'+filename,'rt')
+        f = open('practice1/'+filename,'rt')
         for i, l in enumerate(f):
             if i > 0:
                 self.__balance += (int(l.split(',')[1].split('\n')[0]))
